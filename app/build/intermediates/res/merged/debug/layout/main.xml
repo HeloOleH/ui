@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="View Pager 1"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="monospace"
+		android:id="@+id/mainButton1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="View Pager 2"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="monospace"
+		android:id="@+id/mainButton2"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Drawer Layout 1"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:id="@+id/mainButton3"
+		android:typeface="serif"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Drawer Layout 2"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="serif"
+		android:id="@+id/mainButton4"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Drawer Layout 3"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="serif"
+		android:id="@+id/mainButton5"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Drawer Layout 4"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="serif"
+		android:id="@+id/mainButton6"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Drawer Layout 5"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="serif"
+		android:id="@+id/mainButton7"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Drawer Layout 6"
+		android:layout_margin="3dp"
+		android:onClick="onClick"
+		android:typeface="serif"
+		android:id="@+id/mainButton8"/>
+
+
+</LinearLayout>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.helooleh.ui" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.helooleh.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="com.helooleh.ui.drawer.NavigationDrawerActivity_1" />
+		<activity android:name="com.helooleh.ui.drawer.NavigationDrawerActivity_2"
+            android:theme="@style/AppThemeLight"/>
+        <activity android:name="com.helooleh.ui.drawer.NavigationDrawerActivity_3"
+			android:theme="@style/AppThemeLight"/>
+        <activity android:name="com.helooleh.ui.drawer.NavigationDrawerActivity_4" />
+        <activity android:name="com.helooleh.ui.drawer.NavigationDrawerActivity_5" />
+        <activity android:name="com.helooleh.ui.drawer.NavigationDrawerActivity_6" />
+
+        <activity android:name="com.helooleh.ui.pager.pager1.ViewPagerActivity_1" />
+		<activity android:name="com.helooleh.ui.pager.pager2.ViewPagerActivity_2" />
+    </application>
+
+</manifest>
